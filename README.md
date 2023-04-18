@@ -1,2 +1,2 @@
 # AVfS
-##AVfS stands for "Anti Virus for Systems&Servers
+AVfS stands for "Anti Virus for Systems&Servers
