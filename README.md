@@ -1,4 +1,4 @@
 # AVfS
-AVfS stands for "Anti Virus for Systems&Servers
-```NOTE!!! This script is totally still in public! I do not reccomend forking, cloning this script, and have no intention to take responsibility of any harm, or changes on anything.
-The reason why I made this code public, is because I just wanted to show someone my code that is still in development, in a reason. Thank you.```
+```NOTE!!! This script is totally still in development! I do not recommend running forking or cloning this script yet, and I have no intention of taking responsibility for any harm or changes to anything occurring by this script. The version of this script is still experimental.```
+┏━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫ EXPLANTION ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+  AVfS        │ AVfS stands for Anti-Virus-for-Systems 
