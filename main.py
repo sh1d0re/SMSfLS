@@ -14,6 +14,8 @@ for i in range(7): logs.append("                                                
 for i in range(7): spaces.append("         ")
 os.system("ulimit -S -u 4000")
 def shield(type):
+	if type == "hcfsearch":
+		os.system("echo $(cd ~/ ; find `pwd` -maxdepth 3000)>search.txt")
 	if type == "ssh":
 		if settings[2] == 1:
 			if not subprocess.getoutput("pidof ssh") == "":
@@ -35,12 +37,11 @@ def shield(type):
 			if str(os.system('kill '+str(subprocess.getoutput('pidof ssh')))) == '0':
 				logs.append("\x1b[31;40;1m[!] /3\x1b[0m\x1b[37m Killed (SSH):   Killed REVERSE SHELL! If intended, turn off in settings!\x1b[37m")
 	if type == "hcf":
-		mainscantarget=subprocess.getoutput("find /Users/pre/Desktop").splitlines()
-		print("DONEFINDPROCESS!!!8273")
-		print(mainscantarget)
+		s = subprocess.getoutput("cat /search.txt")
+		mainscantarget = s.splitlines()
 		for i in range(len(mainscantarget)):
 			for j in range(len(dangerouscmdlist)):
-				if str(base64.b64decode(dangerouscmdlist[j-1]).decode()) in str(subprocess.getoutput("cat "+mainscantarget[i-1])):
+				if str(base64.b64decode(dangerouscmdlist[j-1]).decode()) in subprocess.getoutput("cat "+mainscantarget[i-1]):
 					if settings[1] == 1:
 						logs.append("\x1b[32;40;1m[!] /1\x1b[0m\x1b[37m Detect (HCF):  Detected HARMFUL COMMAND FILE!  Detected: "+mainscantarget[i-1])
 					if settings[1] == 2:
@@ -49,6 +50,7 @@ def shield(type):
 					if settings[1] == 3:
 						logs.append("\x1b[31;40;1m[!] /3\x1b[0m\x1b[37m Delete (HCF):     Deleted HARMFUL COMMAND FILE! Deleted: "+mainscantarget[i-1])
 						os.system(str(base64.b64decode(dangerouscmdlist[0].decode()))[1:]+" ~"+mainscantarget[i-1])
+shield("hcfsearch")
 while True:
 	os.system("clear")
 	for i in range(7):                                 
@@ -56,8 +58,10 @@ while True:
 		if len(lognums[i]) == 4: spaces[i] = "       "
 		if len(lognums[i]) == 5: spaces[i] = "      "
 	print("\x1b[37m           A         VV      VV      fff      SSSSSS       y   y   sss   t    ee     m   m       \n          AAA        VV      VV     ff ff    SS     SS      y y   ss    ttt  eeeee  m m m m      \n         AA AA       VV      VV     ff ff   SS       SS      y     sss   t   e      m m m m      \n        AA   AA       VV    VV      ff      SS              y     sss    t    eee   m  m  m      \n       AA     AA      VV    VV      ff       SSSSSSSS     ----------------------------------     \n      AAAAAAAAAAA      VV  VV     ffffff            SS      ee    r r   v   v   ee    r r        \n     AA         AA      V  V        ff      SS      SS     eeeee  rr r  v   v  eeeee  rr r       \n     AA         AA      VVVV        ff       SS    SS      e      r      v v   e      r          \n     AA         AA       VV         ff        SSSSSS        eee   r       v     eee   r          \n\n\x1b[39;40;1;4mMonitoring:\x1b[0m                                                                                      \x1b[37m\n\x1b[39;40;1;4mLog:\x1b[0m\x1b[37m                                                                                             \x1b[0m\n\x1b[37m\n----------------------------------------------------------------------------------------------------------------------------------------+\n\x1b[37m"+str(lognums[0]).replace("N", str(spaces[0]))+"| "+logs[len(logs)-1]+"\x1b[0m\n\x1b[37m"+str(lognums[1]).replace("N", str(spaces[1]))+"| "+logs[len(logs)-2]+"\x1b[0m\n\x1b[37m"+str(lognums[2]).replace("N", str(spaces[2]))+"| "+logs[len(logs)-3]+"\x1b[0m\n\x1b[37m"+str(lognums[3]).replace("N", str(spaces[3]))+"| "+logs[len(logs)-4]+"\x1b[0m\n\x1b[37m"+str(lognums[4]).replace("N", str(spaces[4]))+"| "+logs[len(logs)-5]+"\x1b[0m\n\x1b[37m"+str(lognums[5]).replace("N", str(spaces[5]))+"| "+logs[len(logs)-6]+"\x1b[0m\n\x1b[37m"+str(lognums[6]).replace("N", str(spaces[6]))+"| "+logs[len(logs)-7]+"\x1b[0m\n\x1b[37m----------------------------------------------------------------------------------------------------------------------------------------+\n\n\n\x1b[39;40;1;4mWorkspace:\x1b[0m\x1b[37m                                                                                       \x1b[0m\x1b[37m\n+---------------------------------------------------------------------------------------------------------------------------------------+\x1b[0m")
+	hcfs = threading.Thread(target=shield("hcfsearch"))
 	hcf = threading.Thread(target=shield("hcf"))
 	ssh = threading.Thread(target=shield("ssh"))
+	hcfs.start()
 	hcf.start()
 	ssh.start()
 	pastlog = str(logs)
