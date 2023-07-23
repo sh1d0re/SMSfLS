@@ -3,6 +3,7 @@
 ```NOTE!!! This script is still in development! I do not recommend running or cloning this script yet. I do not intend to take responsibility for any changes in this script. Keep in mind this script is still experimental```
 
 ## EXPLANATION
+### Definition:
 > SMSfLS    - SMSfS stands for Security-Management-Software-for-Linux-Systems.
 
 > RADIUOBII - RADIUSOBII stands for Reverse_shell/mAlicious_activity/(D)DoS/Information_leaks/hid_abUses/spOofs/Bluetooth-attacks/mItm/network-Interceptions/.
@@ -15,17 +16,19 @@
 
 ### Storage:
 > With Pre-Installed Base Development Environments: Around 80kB  [Pidof (57kB) / SMSfLS (Around. 20kB)]
+
 > Without Base Development Environments:            Around 200mB [Python-v3 (90mB) / Brew (106mB) / Pidof (57kB) / SMSfLS (Around. 20kB
 
 ## FEATURES
-Anti-RADIUOBII
+### List:
+> Anti-RADIUOBII
+
+> Tools [Encoder (Base64, Encodes, IEPE, SHA256) / Password Manager (w/ Secure Note)]
 
 ## HOW-TO-USE
-> Step 1    - Download SMSfLS from the section below: "DOWNLOAD".
+> Step 1    - Open terminal [CMD + SPACE] -> [TYPE: terminal] -> [ENTER]
 
-> Step 2    - 
+> Step 2    - Type in the following:
 
-## DOWNLOAD
-<a href="">Linux System</a>
-
-<a href="">macOS System</a>
+```git clone https://github.com/sh1d0re/smsfls.git```
+```sh smsfls/boot.sh```
