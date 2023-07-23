@@ -2,15 +2,10 @@
 
 clear
 echo "
-      A         VV      VV      fff      SSSSSS       y   y   sss   t    ee     m   m    
-     AAA        VV      VV     ff ff    SS     SS      y y   ss    ttt  eeeee  m m m m   
-    AA AA       VV      VV     ff ff   SS       SS      y     sss   t   e      m m m m   
-   AA   AA       VV    VV      ff      SS              y     sss    tt   eee   m  m  m   
-  AA     AA      VV    VV      ff       SSSSSSSS     ----------------------------------
- AAAAAAAAAAA      VV  VV     ffffff            SS      ee    r r   v   v   ee    r rr   
-AA         AA      V  V        ff      SS      SS     eeeee  rr r  v   v  eeeee  rr  r   
-AA         AA      VVVV        ff       SS    SS      e      r      v v   e      r      
-AA         AA       VV         ff        SSSSSS        eee   r       v     eee   r     "
+  sss   m m     sss    fff  l        sss
+sss    m m m  sss      f    l      sss  
+  sss  m m m    sss  fffff  l        sss
+sss    m m m  sss      f    lllll  sss"
 
 pythoncheck=$(python -c"import sys; print(sys.version_info.major)")
 brewcheck=$(brew -v)
