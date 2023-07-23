@@ -31,4 +31,5 @@
 > Step 2    - Type in the following:
 
 ```git clone https://github.com/sh1d0re/smsfls.git```
-```sh smsfls/boot.sh```
+
+```sh smsfls/boot.sh``` <- Type this in to run SMSfLS.
