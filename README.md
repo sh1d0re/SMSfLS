@@ -1,11 +1,25 @@
 <img src="/files/banner.png"></img>
-```NOTE!!! This script is still in development! I do not recommend running or cloning this script yet. I have no intention taking responsibility for any changes occurring by this script. Keep in mind this script is still exprimental```
-<a href=""></a>
+```NOTE!!! This script is still in development! I do not recommend running or cloning this script yet. I do not intend to take responsibility for any changes in this script. Keep in mind this script is still experimental``
+
 ## EXPLANATION
-> AVfS       - AVfS stands for Anti-Virus-for-Systems.
+> SMSfLS     - SMSfS stands for Security-Management-Software-for-Linux-Systems.
 
-> MNP        - MNP stands for Monitor-Neutralize-Protect.
+> RADIUSOBII - RADIUSOBII stands for Reverse_shell/mAlicious_activity/(D)DoS/Information_leaks/hid_abUses/xSs/spOofs/Bluetooth-attacks/mItm/network-Interceptions/.
 
-> Anti-RMDIH - Anti-RMDIH stands for Anti-Reverse_shell-Malicious_activity-(D)DoS-IP_leaks-HID_abuses.
+> IEPE       - IEPE stands for Infinite-Encode-Pattern-Encode.
 
+## REQUIREMENTS
+Environment: Linux/macOS(Debian)
+Storage: 
+> With Pre-Installed Base Development Environments: 200mB [Python-v3 (90mB) / Brew (106mB) / Pidof(57kB) / ]
+> 
 ## FEATURES
+
+## HOW-TO-USE
+> Step 1     - Download SMSfLS from the section below: "DOWNLOAD".
+
+> Step 2     - 
+
+## DOWNLOAD
+<a href="">Linux System</a>
+<a href="">macOS System</a>
