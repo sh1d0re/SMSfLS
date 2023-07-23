@@ -1,5 +1,5 @@
 <img src="/files/banner.png"></img>
-```NOTE!!! This script is still in development! I do not recommend running or cloning this script yet. I do not intend to take responsibility for any changes in this script. Keep in mind this script is still experimental``
+```NOTE!!! This script is still in development! I do not recommend running or cloning this script yet. I do not intend to take responsibility for any changes in this script. Keep in mind this script is still experimental```
 
 ## EXPLANATION
 > SMSfLS     - SMSfS stands for Security-Management-Software-for-Linux-Systems.
