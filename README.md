@@ -10,11 +10,15 @@
 > IEPE      - IEPE stands for Infinite-Encode-Pattern-Encode.
 
 ## REQUIREMENTS
-Environment: Linux/macOS(Debian)
-Storage: 
-> With Pre-Installed Base Development Environments: 200mB [Python-v3 (90mB) / Brew (106mB) / Pidof(57kB) / ]
-> 
+###Environment:
+> Linux/macOS(Debian)
+
+###Storage:
+> With Pre-Installed Base Development Environments: Around 80kB  [Pidof (57kB) / SMSfLS (Around. 20kB)]
+> Without Base Development Environments:            Around 200mB [Python-v3 (90mB) / Brew (106mB) / Pidof (57kB) / SMSfLS (Around. 20kB
+
 ## FEATURES
+Anti-RADIUOBII
 
 ## HOW-TO-USE
 > Step 1    - Download SMSfLS from the section below: "DOWNLOAD".
@@ -23,4 +27,5 @@ Storage:
 
 ## DOWNLOAD
 <a href="">Linux System</a>
+
 <a href="">macOS System</a>
