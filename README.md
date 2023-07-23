@@ -1,4 +1,4 @@
-<img src="/files/banner.png"></img>
+<img src="/files/readme_images/banner.png"></img>
 ```NOTE!!! This script is still in development! I do not recommend running or cloning this script yet. I do not intend to take responsibility for any changes in this script. Keep in mind this script is still experimental```
 
 ## EXPLANATION
