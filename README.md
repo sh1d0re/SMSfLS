@@ -32,4 +32,4 @@
 
 ```git clone https://github.com/sh1d0re/smsfls.git```
 
-```sh smsfls/boot.sh``` > <- Type this in to run SMSfLS.
+```sh smsfls/boot.sh``` ``` <- Type this in to run SMSfLS.```
