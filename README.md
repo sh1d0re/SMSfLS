@@ -10,10 +10,10 @@
 > IEPE      - IEPE stands for Infinite-Encode-Pattern-Encode.
 
 ## REQUIREMENTS
-###Environment:
+### Environment:
 > Linux/macOS(Debian)
 
-###Storage:
+### Storage:
 > With Pre-Installed Base Development Environments: Around 80kB  [Pidof (57kB) / SMSfLS (Around. 20kB)]
 > Without Base Development Environments:            Around 200mB [Python-v3 (90mB) / Brew (106mB) / Pidof (57kB) / SMSfLS (Around. 20kB
 
