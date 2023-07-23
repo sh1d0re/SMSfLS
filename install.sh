@@ -21,7 +21,7 @@ if [ $pythoncheck -ne 3 ]; then
       echo '
       
       
-      - AVfS Ended -'
+      - SMSfLS Ended -'
       exit 1
     fi
   else
@@ -38,7 +38,7 @@ else
       echo '
       
       
-      - AVfS Ended -'
+      - SMSfLS Ended -'
       exit 1
     fi
   else
@@ -54,7 +54,7 @@ else
       echo '
       
       
-      - AVfS Ended -'
+      - SMSfLS Ended -'
       exit 1
     fi
   else
