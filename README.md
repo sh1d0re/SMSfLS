@@ -8,7 +8,7 @@
 
 > RADIUOBII - RADIUSOBII stands for Reverse_shell/mAlicious_activity/(D)DoS/Information_leaks/hid_abUses/spOofs/Bluetooth-attacks/mItm/network-Interceptions/.
 
-> IEPE      - IEPE stands for Infinite-Encode-Pattern-Encode.
+> B2E       - B2E stands for Black Box Encoder developed by sh1d0re, and a simple, quick, light, and safe encoder.
 
 ## REQUIREMENTS
 ### Environment:
@@ -23,7 +23,7 @@
 ### List:
 > Anti-RADIUOBII
 
-> Tools [Encoder (Base64, Encodes, IEPE, SHA256) / Password Manager (w/ Secure Note)]
+> Tools [Encoder (Base64, Encodes, B2E, SHA256) / Password Manager (w/ Secure Note)]
 
 ## HOW-TO-USE
 > Step 1    - Open terminal [CMD + SPACE] -> [TYPE: terminal] -> [ENTER]
