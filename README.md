@@ -21,7 +21,7 @@
 
 ## FEATURES
 ### List:
-> Anti-RADIUOBII
+> Anti-RADIUOBII [Partically In Development]
 
 > Tools [Encoder (Base64, Encodes, B2E, SHA256) / Password Manager (w/ Secure Note)]
 
