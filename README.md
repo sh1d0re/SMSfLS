@@ -6,7 +6,7 @@
 ### Definition:
 > SMSfLS    - SMSfS stands for Security-Management-Software-for-Linux-Systems.
 
-> RADIUOBII - RADIUSOBII stands for Reverse_shell/mAlicious_activity/(D)DoS/Information_leaks/hid_abUses/spOofs/Bluetooth-attacks/mItm/network-Interceptions/.
+> RADIUSOBII - RADIUSOBII stands for Reverse_shell/mAlicious_activity/(D)DoS/Information_leaks/hid_abUses/spOofs/Bluetooth-attacks/mItm/network-Interceptions/.
 
 > B2E       - B2E stands for Black Box Encoder developed by sh1d0re, and a simple, quick, light, and safe encoder.
 
